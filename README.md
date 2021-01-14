@@ -34,95 +34,9 @@ Horizon = 1
 Output
 Month wise returns
 
-Month
-Returns
-Calculation
-Aug-19
-xx% Start nav – 16-Aug-18 End nav – 16-Aug-19
-Sep-19
-xx%
-Start nav – 16-Sep-18
-End nav – 16-Sep-19
-Oct-19
-xx%
-Start nav – 16-Oct-18
-End nav – 16-Oct-19
-Nov-19
-xx%
-Start nav – 16-Nov-18
-End nav – 16-Nov-19
-Dec-19
-xx%
-Start nav – 16-Dec-18
-End nav – 16-Dec-19
-Jan-20
-xx%
-Start nav – 16-Jan-19
-End nav – 16-Jan-20
-Feb-20
-xx%
-Start nav – 16-Feb-19
-End nav – 16-Feb-20
-Mar-20
-xx%
-Start nav – 16-Mar-19
-End nav – 16-Mar-20
-Apr-20
-xx%
-Start nav – 16-Apr-19
-End nav – 16-Apr-20
-May-20
-xx%
-Start nav – 16-May-19
-End nav – 16-May-20
-Jun-20
-xx%
-Start nav – 16-Jun-19
-End nav – 16-Jun-20
-Jul-20
-xx%
-Start nav – 16-Jul-19
-End nav – 16-Jul-20
-
-Suppose
-Period of investment = 3
-Horizon = 5
-
-Output
-
-Month
-Returns
-Calculation
-Aug-15
-xx%
-Start nav – 16-Aug-12
-End nav – 16-Aug-15
-Sep-15
-xx%
-Start nav – 16-Sep-12
-End nav – 16-Sep-15
-
-rows from Oct-15 to Jun-20
-
-Jul-20
-xx%
-Start nav – 16-Jul-17
-End nav – 16-Jul-20
-
-Note
-If NAV for a particular date is not available, choose the NAV of next available date
-If data is not available (if date is before launch date) return zero as the return
-
-Tech stack
-Any tech stack comfortable
-App can be a pure command line based application built on Java or Spring or Python or it can be pure JavaScript app built on top of framework like Angular or react
-
-Points evaluated
-Code organization & structuring
-Testability of code
-Either actual tests or at least clear ideas of what/how to test
+****** How to run project ******
+Run file App.java with with command line argument as shown below :
+outputdirectory [space] schemeId [space] InvestmentPeriod [space] horizon
+example :: /home/vassar/Documents/Mutualfund 102885 3 5
 
 
-Reference
-https://www.investopedia.com/ask/answers/050415/what-good-annual-return-mutual-fund.asp
-https://www.investopedia.com/articles/08/annualized-returns.asp
